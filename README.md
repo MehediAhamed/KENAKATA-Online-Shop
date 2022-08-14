@@ -28,5 +28,6 @@ For admin section :
 http://localhost:8080/admin
 
 Admin Name- admin
+
 Password- 123
 

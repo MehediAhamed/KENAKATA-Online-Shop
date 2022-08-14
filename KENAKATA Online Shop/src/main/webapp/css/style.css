@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --sm-font: 'Quicksand', sans-serif;
+    --green: #3BB77E;
+    --black: #253D4E;
+    --light-green: #C3E7D5;
+    --red: var(--bs-danger);
+    --light-red: #ff8a86;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+section {
+    margin-top: 90px;
+}
+
+.btn:not(.nav-btn button, .active-filter-btn) {
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border: 1px solid var(--black);
+}
+
+.btn:not(.nav-btn button):hover {
+    background-color: var(--red);
+    color: #fff;
+    border-color: var(--red);
+}
+
+/* --Buttons-- */
+.bg-primary {
+    background-color: var(--red) !important;
+}
+
+.text-primary {
+    color: var(--red) !important;
+}
+
+/* --Navbar-- */
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--sm-font);
+    font-size: 2rem;
+}
+
+.nav-btn i {
+    color: var(--black);
+}
+
+.nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav-link:hover {
+    color: var(--red) !important;
+}
+
+.nav-link {
+    font-family: var(--sm-font);
+    font-weight: 600;
+}
+
+
+
+
+
+
+#header {
+    background: url(../images/cart-red.png) right no-repeat, var(--light-red);
+    background-size: 60rem;
+    margin-top: 85px;
+    font-family: var(--sm-font);
+    color: var(--black);
+}
+
+#header h2 {
+    font-size: 5rem;
+}
+
+#header h3 {
+    font-size: 2.5rem;
+}
+
+.shop-now {
+    background-color: var(--red) !important;
+    font-weight: bold;
+    color: #fff !important;
+    border: 1px solid var(--red) !important;
+
+}
+
+.shop-now:hover {
+    border: 1px solid var(--black) !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    color: var(--black) !important;
+}
+
+/* --Title-- */
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: var(--red);
+    left: 43%;
+    top: 56px;
+}
+
+
+/* --Collection-- */
+.filter-button-group .btn {
+    font-weight: 600;
+}
+
+.active-filter-btn {
+    background-color: var(--red) !important;
+    color: #fff !important;
+    padding: 10px 28px;
+    border: 1px solid var(--red) !important;
+}
+
+.filter-button-group .btn:hover {
+    color: #fff !important;
+}
+
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.product-tile {
+    color: var(--black) !important;
+}
+
+.star {
+    font-size: 0.8rem;
+}
+
+/* Special */
+.special-img span {
+    top: 20px;
+    right: 20px;
+}
+
+.special-list btn {
+    padding: 8px 20px !important;
+}
+
+.special-img img {
+    transition: all 0.3s ease;
+}
+
+.special-img img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* Offers */
+#offers {
+    background: url(../images/festival.jpg) no-repeat, #FEFDF8;
+    background-size: 50rem;
+    background-position: right;
+    color: var(--black) !important;
+}
+
+.offer-btn {
+    background-color: #DB3960 !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.offer-btn:hover {
+    background-color: transparent !important;
+    color: var(--black) !important;
+    border: 1px solid #DB3960 !important;
+}
+
+#offers .row {
+    min-height: 60vh;
+}
+
+.offers-content span {
+    font-size: 28px;
+}
+
+.offers-content h2 {
+    font-size: 60px;
+    font-family: var(--sm-font);
+}
+
+
+.populer-cart {
+    padding: 5px 10px !important;
+}
+
+#about {
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+/* newsletter */
+#newsletter {
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+#newsletter p {
+    max-width: 600px;
+}
+
+#newsletter .input-group {
+    max-width: 500px;
+}
+
+#newsletter .form-control {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#newsletter .btn {
+    background-color: var(--red);
+    color: #fff;
+    border-color: var(--red);
+}
+
+#newsletter .btn:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+
+/* footer */
+footer .brand {
+    font-family: var(--sm-font);
+    letter-spacing: 2px;
+}
+
+footer a {
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--bs-danger) !important;
+}
+
+@media (min-width:992px) {
+    .nav-item {
+        border-bottom: 0;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .navbar-brand span {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        width: 100vw !important;
+    }
+
+    #header {
+        background-color: #ff8a86 !important;
+        background-image: none;
+        margin-top: 85px;
+        font-family: var(--sm-font);
+        color: var(--black);
+    }
+}

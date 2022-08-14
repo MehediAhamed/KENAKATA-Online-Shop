@@ -57,5 +57,7 @@ Admin Part Screenshots
 ![Screenshot (106)](https://user-images.githubusercontent.com/104995038/184553745-61c51a28-a770-48f9-81eb-07a53bc69a3c.png)
 
 
+![Screenshot (107)](https://user-images.githubusercontent.com/104995038/184553878-ef6134a4-60be-42f3-a7ee-8243db9bd994.png)
+
 ![Screenshot (108)](https://user-images.githubusercontent.com/104995038/184553852-d301f67e-1365-461c-af9d-52df75806753.png)
 
